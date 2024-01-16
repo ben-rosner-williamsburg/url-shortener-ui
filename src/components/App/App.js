@@ -19,7 +19,6 @@ function App() {
 
 
   const addUrl = (newUrl) => {
-    fetchData()
     setUrls([...urls, newUrl]);
   };
 
